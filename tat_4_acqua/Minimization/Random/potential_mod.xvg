@@ -1,0 +1,25 @@
+# This file was created Mon May  8 13:05:24 2023
+# Created by:
+#              :-) GROMACS - gmx energy, 2020.1-Ubuntu-2020.1-1 (-:
+# 
+# Executable:   /usr/bin/gmx
+# Data prefix:  /usr
+# Working dir:  /content
+# Command line:
+#   gmx energy -f /content/sandrozzona-multiscala/tat_4_acqua/Minimization/Random/em_mod.edr -o /content/sandrozzona-multiscala/tat_4_acqua/Minimization/Random/potential_mod.xvg
+# gmx energy is part of G R O M A C S:
+#
+# Glycine aRginine prOline Methionine Alanine Cystine Serine
+#
+@    title "GROMACS Energies"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "(kJ/mol)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Potential"
+    0.000000  612597576339816448.000000
