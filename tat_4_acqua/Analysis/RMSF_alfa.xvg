@@ -1,0 +1,28 @@
+# This file was created Mon May  8 16:24:09 2023
+# Created by:
+#               :-) GROMACS - gmx rmsf, 2020.1-Ubuntu-2020.1-1 (-:
+# 
+# Executable:   /usr/bin/gmx
+# Data prefix:  /usr
+# Working dir:  /content
+# Command line:
+#   gmx rmsf -f /content/sandrozzona-multiscala/tat_4_acqua/MD/md.xtc -s /content/sandrozzona-multiscala/tat_4_acqua/MD/md.tpr -o /content/sandrozzona-multiscala/tat_4_acqua/Analysis/RMSF_alfa.xvg -res
+# gmx rmsf is part of G R O M A C S:
+#
+# Georgetown Riga Oslo Madrid Amsterdam Chisinau Stockholm
+#
+@    title "RMS fluctuation"
+@    xaxis  label "Residue"
+@    yaxis  label "(nm)"
+@TYPE xy
+   47   0.0573
+   48   0.0444
+   49   0.0368
+   50   0.0322
+   51   0.0336
+   52   0.0258
+   53   0.0312
+   54   0.0284
+   55   0.0287
+   56   0.0279
+   57   0.0401
